@@ -30,5 +30,4 @@ class Bureaucrat{
 		class GradeTooLowException;
 };
 
-
 #endif

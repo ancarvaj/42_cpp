@@ -44,7 +44,7 @@ void Bureaucrat::incrementGrade()
 void Bureaucrat::incrementGrade(int increment)
 {
 	if (increment < 0){
-		std::cout << "Increment must be a positive integer." << std::endl;
+		std::cout << "Increment must be a positive integer.\n";
 		return ;
 	}
 	if (this->grade - increment < 1)
@@ -62,7 +62,7 @@ void Bureaucrat::decrementGrade(){
 
 void Bureaucrat::decrementGrade(int decrement){
 	if (decrement < 0){
-		std::cout << "Decrement must be a positive integer." << std::endl;
+		std::cout << "Decrement must be a positive integer.\n";
 		return ;
 	}
 	if (this->grade + decrement > 150)
